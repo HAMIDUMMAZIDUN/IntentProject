@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latihan Perpindahan Halaman"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnActivity1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Move to an Activity"/>
+
+    <Button
+        android:id="@+id/btnActivity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Move to an Activity with Data"/>
+
+    <Button
+        android:id="@+id/btnActivity3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Move to an Activity with Object"/>
+
+    <Button
+        android:id="@+id/btnActivity4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dial a Number"/>
+
+    <Button
+        android:id="@+id/btnActivity5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Another App"/>
+
+    <Button
+        android:id="@+id/btnActivity6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Move to an Activity for Result"/>
+
+</LinearLayout>
